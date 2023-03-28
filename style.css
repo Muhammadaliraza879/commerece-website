@@ -114,7 +114,7 @@ body {
   display: flex;
   margin-top: 3px;
   flex-direction: column;
-  background-color: #e2e2e2;
+  background-color: #ffff;
 }
 /** Carousel Section**/
 .body .carousel {
@@ -122,7 +122,9 @@ body {
   height: 300px;
   padding-top: 5px;
   border: 1px solid #aaa;
-  background-color: #c5bcbc;
+  background-color: white;
+  border: #000000;
+  border-style: solid;
 }
 /** Hot Deals title**/
 .ht-d {
@@ -147,7 +149,7 @@ body {
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: rgb(173, 175, 175);
+  background-color: #718394;
 }
 /** Featured Deals Section**/
 .body .hot-deals div {
@@ -166,7 +168,7 @@ body {
   margin-top: 8px;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: rgb(95, 117, 109);
+  background-color: #718394;
 }
 /** Featured Deals Section**/
 .body .featured-deals div {
@@ -184,11 +186,15 @@ footer {
   display: flex;
   margin-top: 3px;
   flex-direction: column;
-  background-color: #878787;
+  border: #000000;
+  background-color: white;
+  border-style: solid;
 }
 /** Footer Body**/
 .footer {
   display: flex;
+  border: #000000;
+  border-style: solid;
 }
 /** Contact us**/
 footer .contact-us {
