@@ -184,7 +184,7 @@ footer {
   display: flex;
   margin-top: 3px;
   flex-direction: column;
-  background-color: #b5daff;
+  background-color: #878787;
 }
 /** Footer Body**/
 .footer {
@@ -193,7 +193,7 @@ footer {
 /** Contact us**/
 footer .contact-us {
   width: 50%;
-  height: 300px;
+  height: 200px;
   padding-left: 10px;
 }
 /** About us**/
