@@ -29,6 +29,7 @@ body {
   color: black;
   text-align: center;
   padding: 14px 16px;
+  margin-top: 6px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -67,21 +68,21 @@ body {
 }
 .head .links .login {
   border: none;
-  margin-top: 8px;
+  margin-top: 12px;
+  margin-left: 15px;
   font-size: 17px;
   cursor: pointer; /* Set cursor to pointer */
-  margin-right: 8px;
-  padding: 6px 10px;
+  padding: 10px 14px;
   font-size: medium;
   background: #ddd;
   text-align: center;
-  border-radius: 4px; /* Set border radius */
+  border-radius: 8px; /* Set border radius */
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Set display to inline-block */
-  transition: background-color 0.3s ease; /* Add transition */
+  transition: #ddd 0.3s ease; /* Add transition */
 }
 .head .links .login:hover:not(.clicked) {
-  background-color: #ddd; /* Change background color on hover */
+  background-color: #c8c4c4; /* Change background color on hover */
   animation: pulse 0.5s infinite alternate; /* Add animation */
 }
 
