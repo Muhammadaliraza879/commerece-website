@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #edf1f4;
+  background-color: #cacaca;
 }
 /** Header Styling**/
 
@@ -14,7 +14,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #cad6e2;
+  background-color: #718394;
 }
 /** Company Logo Design **/
 .head .company-logo {
@@ -114,7 +114,7 @@ body {
   display: flex;
   margin-top: 3px;
   flex-direction: column;
-  background-color: #b5daff;
+  background-color: #e2e2e2;
 }
 /** Carousel Section**/
 .body .carousel {
@@ -147,7 +147,7 @@ body {
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: aquamarine;
+  background-color: rgb(173, 175, 175);
 }
 /** Featured Deals Section**/
 .body .hot-deals div {
