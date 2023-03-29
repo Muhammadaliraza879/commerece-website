@@ -19,6 +19,12 @@
   background-color: rgb(75, 160, 149);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+ .hot-deals .price { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   /* margin-top: 50%; */
+}
 .body .featured-deals {
   width: 100%;
   display: flex;
@@ -36,6 +42,12 @@
   border-radius: 10px;
   background-color: rgb(75, 160, 149);
   box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.featured-deals.price{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
    .categories{
     width: 100%;
@@ -75,4 +87,6 @@
   background-color: rgb(75, 160, 149);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  
+
   
