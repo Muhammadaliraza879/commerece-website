@@ -163,25 +163,50 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.bdy{
+  background-color: #D4E4FC;
+}
+
 .contact_container{
-  margin: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact_container .head1{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: 'arial';
 }
 
 .contact_container fieldset{
-  width: 35%;
+  width: 38%;
   padding: 20px;
-  justify-content: center;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  border: 1px solid white;
+  box-shadow: 1px 1px 10px 10px #cccbcb53;
+  flex-direction: column;
 }
 
 .contact_container fieldset .heading{
   font-size: 30px;
-  padding: 5px 0px;
+  font-weight: 600;
+  padding: 5px 17px;
   font-family: Arial;
+  align-self: baseline;
   text-transform: capitalize;
 }
 
 .contact_container .form{
   padding: 10px 0px;
+}
+
+.contact_container .form .input::placeholder{
+  color: black !important;
 }
 
 .contact_container .form input,
@@ -193,6 +218,19 @@ body {
   font-family: arial;
   margin-bottom: 5px;
   text-transform: capitalize;
+}
+
+
+
+.contact_container .btn{
+  text-align: center;
+}
+
+.contact_container button{
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid gray;
 }
 
 footer {
