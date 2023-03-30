@@ -120,7 +120,7 @@ body {
 .body .carousel {
   width: auto;
   height: 300px;
-  margin: 25px 18px 8px 18px;
+  margin: 25px 32px 8px 32px;
   padding-top: 0x;
   border: 1px #aaa;
   background-color: white;
@@ -143,7 +143,7 @@ body {
 .body .hot-deals {
   display: flex;
   height: 225px;
-  margin: 8px 20px 0px 20px;
+  margin: 8px 32px 0px 32px;
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
@@ -167,7 +167,7 @@ body {
 .body .featured-deals {
   display: flex;
   height: 225px;
-  margin: 8px 20px 0px 20px;
+  margin: 8px 32px 0px 32px;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #fff;
@@ -256,16 +256,17 @@ body {
 
 footer {
   height: auto;
+
   display: flex;
-  margin: 25px 16px 8px 16px;
+  margin: 25px 16px 0px 16px;
   flex-direction: column;
 }
 /** Footer Body**/
 .footer {
   display: flex;
-  margin: 25px 16px 8px 16px;
-  border: #b1b0b0;
-  border-style: solid;
+  background-color: #ececec;
+  margin: 25px 16px 0px 16px;
+  box-shadow: 1px 1px 10px 10px #cccbcb53;
 }
 /** Contact us**/
 footer .contact-us {
