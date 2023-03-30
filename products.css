@@ -9,14 +9,14 @@
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #b8b529ec;
+  background-color: #c0b3c47e;
 }
 .body .hot-deals div {
   height: auto;
   width: 200px;
   margin: 10px;
   border-radius: 25px;
-  background-color: rgb(75, 160, 149);
+  background-color: rgb(233, 243, 242);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  .hot-deals .price { 
@@ -25,6 +25,7 @@
   justify-content: space-between;
    /* margin-top: 50%; */
 }
+
 .body .featured-deals {
   width: 100%;
   display: flex;
@@ -33,7 +34,7 @@
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #b8b529ec;
+  background-color: #c0b3c47e;
 }
 .body .featured-deals div {
   height: auto;
@@ -44,7 +45,9 @@
   box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.ht-d, .ft-d,.cd{
+  text-align: center;
+}
    .categories{
     width: 100%;
     display: flex;
@@ -53,7 +56,7 @@
     text-align: center;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #b8b529ec;
+    background-color: #c0b3c47e;
 
   }
   .body.categories {
