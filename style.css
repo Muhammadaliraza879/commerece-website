@@ -118,9 +118,7 @@ body {
 }
 /** Carousel Section**/
 .body .carousel {
-  width: auto;
-  height: 300px;
-  margin: 25px 32px 8px 32px;
+  height: 400px;
   padding-top: 0x;
   border: 1px #aaa;
   background-color: white;
