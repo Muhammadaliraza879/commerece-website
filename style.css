@@ -153,6 +153,7 @@ body {
   width: 40%;
   transition: 0.3s;
   margin-left: 15px;
+  cursor: pointer;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -175,6 +176,7 @@ body {
 /** Featured Deals Section**/
 .body .featured-deals .card {
   width: 50%;
+  cursor: pointer;
   transition: 0.3s;
   margin-left: 15px;
   background-color: #fff;
@@ -202,16 +204,19 @@ body {
 .body .categories{
   display: flex;
   margin: 0px 20px;
+  padding: 10px 0px;
   justify-content: space-evenly;
 }
 
 .body .categories .card{
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .body .categories .card p{
-  text-align: center;
+  font-weight: 600;
   font-family: arial;
+  text-align: center;
 }
 
 .bdy {
