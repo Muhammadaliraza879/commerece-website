@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cart.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
 
     <title>Cart</title>
-</head>
-<body>
+  </head>
+  <!--Header Section-->
+  <header class="head">
+    <!-- Company Logo-->
+    <div class="company-logo">
+      <img src="./Images/company-Logo.png" alt="Images" />
+    </div>
+    <!--Company Logos-->
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./AboutUs.html">About</a>
+      <a href="./ContactUs.html">Contact</a>
+      <a href="./product.html">Products</a>
+      <a href="./cart.html">Cart</a>
+      <!--Login Button-->
+      <button class="login">Login</button>
+    </div>
+    <!--Search Bar-->
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+  <body>
     <!--cart-item details-->
     <div class="small-container Cart-page">
-<table>
-    <tr>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Subtotal</th>
-    </tr>
-    <tr>
-        <td>
-        <div class="cart-info">
-        <img src="images/buy-1.jpg">
-        <div>
-            <p>Printed t-shirt</p>
-            <small>Price: $50.00</small>
-            <a href="">remove</a>
-            
-        </div>
-        </div>
-        </td>
-        <td>Product name</td>
-        <td><input type="number" value="1"></td>
-        <td>$500.00</td>
-    </tr>
-</table>
-
-
-
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-1.jpg" />
+              <div>
+                <p>Printed t-shirt</p>
+                <small>Price: $50.00</small>
+                <a href="">remove</a>
+              </div>
+            </div>
+          </td>
+          <td>Product name</td>
+          <td><input type="number" value="1" /></td>
+          <td>$500.00</td>
+        </tr>
+      </table>
     </div>
-
-        
-                            
-    
-
-</body>
+  </body>
 </html>
