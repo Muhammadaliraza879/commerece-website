@@ -1,21 +1,21 @@
-body{
+body {
   margin: 0%;
   font-family: sans-serif;
   background: white;
 }
-h3{
+h3 {
   text-align: center;
   font-size: 30px;
   margin: 0%;
   padding-top: 10px;
 }
-h2{
+h2 {
   text-align: center;
   font-size: 30px;
   margin: 0%;
   padding-top: 10px;
 }
-.gallery{
+.gallery {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -24,7 +24,7 @@ h2{
   margin: 50px o;
   background: rgb(214, 211, 211);
 }
-.content{
+.content {
   width: 20%;
   margin: 15px;
   box-sizing: border-box;
@@ -33,16 +33,15 @@ h2{
   border-radius: 20px;
   cursor: pointer;
   padding-top: 10px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  transition: .4s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
   background: rgb(224, 205, 205);
 }
-.content :hover{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.22) 0 3px 6px rgba(0,0,0,0.23);
+.content :hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22) 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translate(opx, -8px);
-
 }
-img{
+img {
   width: 200px;
   height: 200px;
   text-align: center;
@@ -50,44 +49,43 @@ img{
   display: block;
   border-radius: 20px;
 }
-.pro{
-  background:rgb(214, 211, 211);
+.pro {
+  background: rgb(214, 211, 211);
 }
-p{
+p {
   text-align: center;
   color: rgb(15, 15, 14);
   padding-top: 0 8px;
 }
-h6{
+h6 {
   font-size: 26px;
   text-align: center;
   color: #222;
   margin: 0;
-
 }
-ul{
-list-style: none;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0;
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
-li{
-  padding-top:5px ;
+li {
+  padding-top: 5px;
 }
-.fa{
+.fa {
   font-size: 26px;
   transition: 4s;
   margin: 3px;
 }
-.checked{
+.checked {
   color: chocolate;
 }
-.fa:hover{
+.fa:hover {
   transform: scale(1.3);
   transition: 6s;
 }
-button{
+button {
   background: white;
   text-align: center;
   font-size: 24px;
@@ -103,20 +101,17 @@ button{
   /* border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px; */
 }
-.buy-1{
-  background:rgb(253, 55, 5)
+.buy-1 {
+  background: rgb(253, 55, 5);
 }
-.buy-2{
-    background:rgb(253, 55, 5)
-
+.buy-2 {
+  background: rgb(253, 55, 5);
 }
-.buy-3{
-      background:rgb(253, 55, 5)
-
+.buy-3 {
+  background: rgb(253, 55, 5);
 }
-.buy-4{
-  background:rgb(253, 55, 5)
-
+.buy-4 {
+  background: rgb(253, 55, 5);
 }
 /* 
 .body .hot-deals {
@@ -190,10 +185,9 @@ button{
      margin-top: 5px;
     padding-top: 5px;;
     /* background:rgb(75, 160, 149); */
-    /* height: 190px;
+/* height: 190px;
     width: 190px;
     /* border: 2px solid red; */
-    /* border-radius: 13px;
+/* border-radius: 13px;
     box-shadow:0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
   }    */
-   */ */
