@@ -1,4 +1,4 @@
-
+/
 .body .hot-deals {
   width: 100%;
   display: flex;
@@ -65,9 +65,9 @@
     background-color: rgb(3, 31, 27);
     box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  }
-  /* .in_div{
-    /* margin-top: 5px;
+  } 
+   .in_div{
+     margin-top: 5px;
     padding-top: 5px;;
     background:rgb(75, 160, 149);
     height: 190px;
@@ -75,15 +75,13 @@
     border: 2px solid red;
     border-radius: 13px;
     box-shadow:0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
-  } */ 
-  .in_div{
+  }  
+   .in_div{
     height: auto;
   width: 200px;
   margin: 10px;
   border-radius: 25px;
   background-color: rgb(75, 160, 149);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   
-
   
