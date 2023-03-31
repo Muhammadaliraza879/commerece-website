@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to FontAwesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Contact Us</title>
-</head>
-
-<body class="bdy">
-    <div class="contact_container">
-        <h1 class="head1">Contact Us</h1>
-        <fieldset>
-            <p class="heading">get in touch !</p>
-            <form class="form" action="">
-                <input class="input" type="text" placeholder="first name">
-                <input class="input" type="text" placeholder="last name"><br>
-                <input class="input" type="tel" placeholder="phone">
-                <input class="input" type="text" placeholder="email"><br>
-                <input class="input" type="text" placeholder="address" size="46"><br>
-                <textarea name="textarea" id="" cols="48" rows="5">query</textarea><br>
-            </form>
-            <div class="btn">
-                <button>Submit</button>
-            </div>
-        </fieldset>
+  </head>
+  <!--Header Section-->
+  <header class="head">
+    <!-- Company Logo-->
+    <div class="company-logo">
+      <img src="./Images/company-Logo.png" alt="Images" />
     </div>
-</body>
-
+    <!--Company Logos-->
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./AboutUs.html">About</a>
+      <a href="./ContactUs.html">Contact</a>
+      <a href="./product.html">Products</a>
+      <a href="./cart.html">Cart</a>
+      <!--Login Button-->
+      <button class="login">Login</button>
+    </div>
+    <!--Search Bar-->
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+  <body class="bdy">
+    <div class="contact_container">
+      <h1 class="head1">Contact Us</h1>
+      <fieldset>
+        <p class="heading">get in touch !</p>
+        <form class="form" action="">
+          <input class="input" type="text" placeholder="first name" />
+          <input class="input" type="text" placeholder="last name" /><br />
+          <input class="input" type="tel" placeholder="phone" />
+          <input class="input" type="text" placeholder="email" /><br />
+          <input
+            class="input"
+            type="text"
+            placeholder="address"
+            size="46"
+          /><br />
+          <textarea name="textarea" id="" cols="48" rows="5">query</textarea
+          ><br />
+        </form>
+        <div class="btn">
+          <button>Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </body>
 </html>

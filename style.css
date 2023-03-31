@@ -2,11 +2,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #cacaca;
+  background-color: #c4c4c4;
 }
 /** Header Styling**/
 
@@ -14,7 +15,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #718394;
+  background-color: #ececec;
 }
 /** Company Logo Design **/
 .head .company-logo {
@@ -114,91 +115,129 @@ body {
   display: flex;
   margin-top: 3px;
   flex-direction: column;
-  background-color: #ffff;
 }
 /** Carousel Section**/
 .body .carousel {
-  width: auto;
-  height: 300px;
-  padding-top: 5px;
-  border: 1px solid #aaa;
+  height: 400px;
+  padding-top: 0x;
+  border: 1px #aaa;
   background-color: white;
-  border: #000000;
-  border-style: solid;
 }
 /** Hot Deals title**/
 .ht-d {
   font-size: 25px;
-  padding: 10px 0;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   font-weight: bold;
   text-align: center;
 }
 /** Featured Deals title**/
 .ft-d {
   font-size: 25px;
-  padding: 10px 0;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   font-weight: bold;
   text-align: center;
 }
 /** Hot Deals body**/
 .body .hot-deals {
-  width: 100%;
   display: flex;
-  height: 200px;
-  margin-top: 8px;
+  height: 225px;
   text-align: center;
   flex-direction: row;
+  margin: 8px 32px 0px 32px;
   justify-content: space-evenly;
-  background-color: #718394;
 }
 /** Featured Deals Section**/
-.body .hot-deals div {
-  height: auto;
-  width: 200px;
-  margin: 10px;
-  border-radius: 25px;
-  background-color: azure;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.body .hot-deals .card {
+  width: 40%;
+  transition: 0.3s;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body .hot-deals .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body .hot-deals .container {
+  padding: 2px 16px;
 }
 /** Featured Deals body **/
 .body .featured-deals {
-  width: 100%;
   display: flex;
-  height: 200px;
-  margin-top: 8px;
-  flex-direction: row;
+  height: 225px;
+  margin: 8px 32px 0px 32px;
   justify-content: space-evenly;
-  background-color: #718394;
+  background-color: #C4C4C4;
 }
 /** Featured Deals Section**/
-.body .featured-deals div {
-  height: auto;
-  width: 200px;
-  margin: 10px;
-  border-radius: 10px;
-  background-color: azure;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.body .featured-deals .card {
+  width: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.bdy{
-  background-color: #D4E4FC;
+.body .featured-deals .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.contact_container{
+.body .featured-deals .card .container {
+  padding: 2px 16px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.body .cat-d{
+  font-size: 25px;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.body .categories{
+  display: flex;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+}
+
+.body .categories .card{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.body .categories .card p{
+  font-weight: 600;
+  font-family: arial;
+  text-align: center;
+}
+
+.bdy {
+  background-color: #d4e4fc;
+}
+
+.contact_container {
   padding: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.contact_container .head1{
+.contact_container .head1 {
   font-size: 40px;
   text-align: center;
   padding-bottom: 40px;
-  font-family: 'arial';
+  font-family: "arial";
 }
 
-.contact_container fieldset{
+.contact_container fieldset {
   width: 38%;
   padding: 20px;
   display: flex;
@@ -209,7 +248,7 @@ body {
   flex-direction: column;
 }
 
-.contact_container fieldset .heading{
+.contact_container fieldset .heading {
   font-size: 30px;
   font-weight: 600;
   padding: 5px 17px;
@@ -218,17 +257,16 @@ body {
   text-transform: capitalize;
 }
 
-.contact_container .form{
+.contact_container .form {
   padding: 10px 0px;
 }
 
-.contact_container .form .input::placeholder{
+.contact_container .form .input::placeholder {
   color: black !important;
 }
 
 .contact_container .form input,
-.contact_container .form textarea
-{
+.contact_container .form textarea {
   padding: 5px;
   color: black;
   font-size: 15px;
@@ -237,13 +275,11 @@ body {
   text-transform: capitalize;
 }
 
-
-
-.contact_container .btn{
+.contact_container .btn {
   text-align: center;
 }
 
-.contact_container button{
+.contact_container button {
   font-size: 15px;
   padding: 10px 20px;
   border-radius: 20px;
@@ -251,20 +287,18 @@ body {
 }
 
 footer {
-  width: 100%;
   height: auto;
+
   display: flex;
-  margin-top: 3px;
+  margin: 25px 16px 0px 16px;
   flex-direction: column;
-  border: #000000;
-  background-color: white;
-  border-style: solid;
 }
 /** Footer Body**/
 .footer {
   display: flex;
-  border: #000000;
-  border-style: solid;
+  background-color: #ececec;
+  margin: 25px 16px 0px 16px;
+  box-shadow: 1px 1px 10px 10px #cccbcb53;
 }
 /** Contact us**/
 footer .contact-us {

@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link to FontAwesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- Link to Main style sheet-->
+
+    <link href="./style.css" rel="stylesheet" />
 <link rel="stylesheet" href="./products.css">
     <title>  Products </title>
+   
 </head>
-
+  <!--Header Section-->
+  <header class="head">
+    <!-- Company Logo-->
+    <div class="company-logo">
+      <img src="./Images/company-Logo.png" alt="Images" />
+    </div>
+    <!--Company Logos-->
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./AboutUs.html">About</a>
+      <a href="./ContactUs.html">Contact</a>
+      <a href="./product.html">Products</a>
+      <a href="./cart.html">Cart</a>
+      <!--Login Button-->
+      <button class="login">Login</button>
+    </div>
+    <!--Search Bar-->
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
   <body>
   <div class="body">
     <div class="carousel">
@@ -15,32 +47,31 @@
     </div>
     <h2 class="ht-d">Hot Deals</h2>
     <div class="hot-deals">
-      <div class="price">1<p>price</p></div>
-      <div class="price">2<p>price</p></div>
-      <div class="price">3<p>price</p></div>
-      <div class="price">4<p>price</p></div>
-      <div class="price">5<p>price</p></div>
+      <div class="price"><img src="Images/images.jpg" height="100%" width="100%" alt="image"><p>price</p></div>
+      <div class="price"><img src="Images/images (1).jpg" height="100%" width="100%" alt="image"><p>price</p></div>
+      <div class="price"><img src="Images/images (2).jpg" height="100%" width="100%" alt="image"><p>price</p></div>
+      <div class="price"><img src="Images/download (1).jpg" height="100%" width="100%" alt="image"><p>price</p></div>
+      <div class="price"><img src="Images/download (2).jpg" height="100%" width="100%" alt="image"><p>price</p></div>
     </div>
     <h2 class="ft-d">Featured Deals</h2>
     <div class="featured-deals">
-      <div>1<p></p></div>
-      <div>2</div>
-      <div >3</div>
-      <div >4</div>
-      <div >5</div>
+      <div><img src="Images/pent.jpg" height="100%" width="100%" alt="image"></div>
+      <div><img src="Images/pent(1).jpg" height="100%" width="100%" alt="image"></div>
+      <div ><img src="Images/pent (2).jpg" height="100%" width="100%" alt="image"></div>
+      <div ><img src="Images/pent (3).jpg" height="100%" width="100%" alt="image"></div>
+      <div ><img src="Images/pent  (4).jpg" height="100%" width="100%" alt="image"></div>
     </div>
   
-   <h2>Categories</h2>
+   <h2 class="cd">Categories</h2>
    <div class="categories">
-    <div class="in_div"></div>
-    <div class="in_div"></div>
-    <div class="in_div"></div>
-    <div class="in_div"></div>
-    <div class="in_div"></div>
+    <div class="in_div"><img src="Images/kurta 1.jpg" height="100%" width="100%" alt="image"></div>
+    <div class="in_div"><img src="Images/kurta (2).jpg" height="100%" width="100%" alt="image"></div>
+    <div class="in_div"><img src="Images/kurta (3).jpg" height="100%" width="100%" alt="image"></div>
+    <div class="in_div"><img src="Images/kurta (4).jpg" height="100%" width="100%" alt="image"></div>
+    <div class="in_div"><img src="Images/kurta.jpg" height="100%" width="100%" alt="image"></div>
     </div> 
 
    
 
 </body>
-  
 </html>
