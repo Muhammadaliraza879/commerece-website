@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0%;
   font-family: sans-serif;
   background: white;
@@ -35,13 +35,13 @@ h2 {
   padding-top: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.4s;
-  background: rgb(224, 205, 205);
+  background:  #fba830;
 }
 .content :hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22) 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translate(opx, -8px);
 }
-img {
+body .gallery .content img {
   width: 200px;
   height: 200px;
   text-align: center;
@@ -51,6 +51,8 @@ img {
 }
 .pro {
   background: rgb(214, 211, 211);
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 p {
   text-align: center;
@@ -113,81 +115,3 @@ button {
 .buy-4 {
   background: rgb(253, 55, 5);
 }
-/* 
-.body .hot-deals {
-  width: 100%;
-  display: flex;
-  height: 200px;
-  margin-top: 8px;
-  text-align: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #c0b3c47e;
-}
-.body .hot-deals div {
-  height: auto;
-  width: 200px;
-  margin: 10px;
-  border-radius: 25px;
-  background-color: rgb(233, 243, 242);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
- .hot-deals .price { 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-   /* margin-top: 50%; */
-/* }
-
-.body .featured-deals {
-  width: 100%;
-  display: flex;
-  height: 200px;
-  margin-top: 8px;
-  text-align: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #c0b3c47e;
-}
-.body .featured-deals div {
-  height: auto;
-  width: 200px;
-  margin: 10px;
-  border-radius: 10px;
-  background-color: rgb(75, 160, 149);
-  box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.ht-d, .ft-d,.cd{
-  text-align: center;
-}
-   .categories{
-    width: 100%;
-    display: flex;
-    height: 200px;
-    margin-top: 8px;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #c0b3c47e;
-
-  }
-  .body.categories {
-    height: auto;
-    width: 200px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(3, 31, 27);
-    box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  } 
-   .in_div{
-     margin-top: 5px;
-    padding-top: 5px;;
-    /* background:rgb(75, 160, 149); */
-/* height: 190px;
-    width: 190px;
-    /* border: 2px solid red; */
-/* border-radius: 13px;
-    box-shadow:0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
-  }    */
