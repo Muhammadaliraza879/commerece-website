@@ -297,7 +297,7 @@ footer {
   flex-direction: row;
   background-color: #fcae39;
 
-  box-shadow: 1px 1px 10px 10px #cccbcb53;
+  /* box-shadow: 1px 1px 10px 10px #cccbcb53; */
 }
 /** Footer Section 1**/
 footer .f-s1 {
