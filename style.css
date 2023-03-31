@@ -118,7 +118,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-
+  background-color: #ffd79a;
   flex-direction: column;
 }
 /** Carousel Section**/
@@ -175,7 +175,7 @@ body {
   height: 225px;
   margin: 8px 32px 0px 32px;
   justify-content: space-evenly;
-  background-color: #c4c4c4;
+  /* background-color: transparent; */
 }
 /** Featured Deals Section**/
 .body .featured-deals .card {
@@ -288,9 +288,7 @@ body {
 
 footer {
   height: auto;
-
   display: flex;
-  margin: 25px 0px 0px 0px;
   flex-direction: column;
 }
 /** Footer Body**/
@@ -298,7 +296,7 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #fcae39;
-  margin: 25px 0px 0px 0px;
+
   box-shadow: 1px 1px 10px 10px #cccbcb53;
 }
 /** Footer Section 1**/
