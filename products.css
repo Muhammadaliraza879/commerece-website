@@ -1,4 +1,4 @@
-* {
+body{
   margin: 0%;
   font-family: sans-serif;
   background: white;
@@ -35,7 +35,7 @@ h2 {
   padding-top: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.4s;
-  background:  #fba830;
+  background:  rgb(248, 209, 209);
 }
 .content :hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22) 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -65,7 +65,7 @@ h6 {
   color: #222;
   margin: 0;
 }
-ul {
+.content ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -75,7 +75,7 @@ ul {
 li {
   padding-top: 5px;
 }
-.fa {
+.content ul li .fa  {
   font-size: 26px;
   transition: 4s;
   margin: 3px;
@@ -87,7 +87,7 @@ li {
   transform: scale(1.3);
   transition: 6s;
 }
-button {
+ .content button {
   background: white;
   text-align: center;
   font-size: 24px;
@@ -103,15 +103,15 @@ button {
   /* border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px; */
 }
-.buy-1 {
+.content .buy-1 {
   background: rgb(253, 55, 5);
 }
-.buy-2 {
+.content .buy-2 {
   background: rgb(253, 55, 5);
 }
-.buy-3 {
+.content .buy-3 {
   background: rgb(253, 55, 5);
 }
-.buy-4 {
+.content .buy-4 {
   background: rgb(253, 55, 5);
 }
