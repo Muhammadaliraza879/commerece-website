@@ -1,46 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.main_container .heading1{
-    height: 250px;
-    display: flex;
-    color: white;
-    font-size: 30px;
-    line-height: 50px;
-    padding: 3rem 0rem;
-    font-family: arial;
-    background: #000;
-    align-items: center;
-    justify-content: center;
+.main_container .heading1 {
+  height: 250px;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  padding: 3rem 0rem;
+  font-family: arial;
+  background: #fba830;
+  align-items: center;
+  justify-content: center;
 }
 
-.main_container .sec1{
-    padding: 50px 0px;
-    background-color: #f7f7f7;
+.main_container .sec1 {
+  padding: 50px 0px;
+  background-color: #f7f7f7;
 }
 
-.main_container .sec1 .heading2{
-    font-size: 35px;
-    padding: 1rem 0;
-    font-family: arial;
-    text-align: center;
-    text-transform: capitalize;
+.main_container .sec1 .heading2 {
+  font-size: 35px;
+  padding: 1rem 0;
+  font-family: arial;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.main_container .sec1 .para1{
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    font-family: arial;
+.main_container .sec1 .para1 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  font-family: arial;
 }
 
-.main_container .sec2{
-    text-align: center;
+.main_container .sec2 {
+  text-align: center;
 }
 
-.main_container .sec2 img{
-    width: 70%;
+.main_container .sec2 img {
+  width: 70%;
 }
