@@ -54,7 +54,7 @@ body .gallery .content img {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-p {
+.content p {
   text-align: center;
   color: rgb(15, 15, 14);
   padding-top: 0 8px;
