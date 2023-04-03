@@ -4,50 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+<!--Header Section-->
+<header class="head">
+    <!-- Company Logo-->
+    <div class="company-logo">
+      <img src="./Images/company-Logo.png" alt="Images" />
+    </div>
+    <!--Company Logos-->
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./AboutUs.html">About</a>
+      <a href="./ContactUs.html">Contact</a>
+      <a href="./product.html">Products</a>
+      <a href="./cart.html">Cart</a>
+      <br>
+      
+    </div>
+    <!--Search Bar-->
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+    <br>
+    
+    <title>login</title>
     <style>
-        h1{text-align: center; background-color: rgb(8, 105, 138)39, 127;}
-        h2{ text-align: center;}
-        p{text-align:start}
-        body{ background-color: darksalmon;}
-header{
-font-weight: 100;
-font-size:xx-large;
-background-color: rgb(235, 87, 38)
-}
+        #parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+       label{
+        width: 100px;
+        display: inline-block;
+        margin: 4px;
+       }
+       #table{
+        border-radius: 10px;
+        background-color: coral;
+        color: white;
+        width: 300px;
+        padding: 4px;
+        
+              
+       }
+       h2{text-align:center;
+    }
+    #submit{
+        width: 280px;
+        margin:6px;;
+    }
         
     </style>
+
+<body id="parent">
     
-</head>
-<body>
-    
+<div id="table">
+    <h2>login</h2>
     <form>
-    <header><div>creative</div>
-        </header>
-    <h1>Login</h1> 
-        <h2>User Information</h2>
-        <P>Name* <input type="text" placeholder="enter your name"></P>
-    
-        <P>Gender</P>
-      <label for="101">
-    <input type="radio" value="Male" name="Gender" id="101">male
-</label>
-       <label for="102">
-        <input type="radio" value="Female" name="gender" id="102">female
-    </label><br>
-   <br>
-    Email:<input type="text" name="email" placeholder="enter your email">
-   <br>
-   <h4>Address:</h4>
-   <textarea name="address" placeholder="enter your address" cols="50" rows="5"></textarea><br>
-  
-   
-   <br>
-   
-    
+        <label>Name:</label>
+        <input type="text" name="name"><br>
+        <label>Father Name:</label>
+        <input type="text" name=" father name"><br>
+        <label>Phone:</label>
+        <input type="number" name="phone">
+        <br>
+        <input type="submit" name="submit" id="submit">
+
+
+
 
     </form>
-    
-    
+
+</div>
 </body>
-</html>
+
+
