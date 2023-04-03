@@ -118,7 +118,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  background-color: #ffd79a;
+  /* background-color: #ffd79a; */
   flex-direction: column;
 }
 /** Carousel Section**/
@@ -222,10 +222,6 @@ body {
   font-weight: 600;
   font-family: arial;
   text-align: center;
-}
-
-.bdy {
-  background-color: #fba830;
 }
 
 .contact_container {
