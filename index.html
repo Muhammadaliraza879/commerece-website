@@ -1,278 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Link to Main style sheet-->
-    <link href="./style.css" rel="stylesheet" />
-    <!-- Link to FontAwesome CDN-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Commerece Website</title>
-  </head>
-  <!--Header Section-->
-  <header class="head">
-    <!-- Company Logo-->
-    <div class="company-logo">
-      <img src="./Images/company-Logo.png" alt="Images" />
-    </div>
-    <!--Company Logos-->
-    <div class="links">
-      <a href="./index.html">Home</a>
-      <a href="./AboutUs.html">About</a>
-      <a href="./ContactUs.html">Contact</a>
-      <a href="./product.html">Products</a>
-      <a href="./cart.html">Cart</a>
-      <!--Login Button-->
-      <button class="login" onclick="login()">Login</button>
-    </div>
-    <!--Search Bar-->
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search" />
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </header>
-  <!--Body Section-->
 
-  <body>
-    <div class="body">
-      <!--Carousel Section-->
-      <div class="carousel">
-        <img
-          src="./Images/cover.webp"
-          alt="carousel"
-          style="height: 450px; width: 100%"
-        />
-      </div>
-      <!--Hot Deals Section-->
-      <p class="ht-d">Hot Deals</p>
-      <div class="hot-deals">
-        <div class="card">
-          <img
-            src="./Images/pexels-parag-deshmukh-577769.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Bing Head Phone</p>
-            <h4><b>RS. 40,000</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-nick-collins-1274613.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Chillies</p>
-            <h4><b>RS. 60</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-lumn-191043.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Radish</p>
-            <h4><b>RS. 20</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-kinkate-gruber-205926.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Headphone</p>
-            <h4><b>RS. 20,000</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-jonathan-pham-2955794.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Vegetables</p>
-            <h4><b>RS. 20</b></h4>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Link to Main style sheet-->
+  <link href="./style.css" rel="stylesheet" />
+  <!-- Link to FontAwesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commerece Website</title>
+</head>
+<!--Header Section-->
+<header class="head">
+  <!-- Company Logo-->
+  <div class="company-logo">
+    <img src="./Images/company-Logo.png" alt="Images" />
+  </div>
+  <!--Company Logos-->
+  <div class="links">
+    <a href="./index.html">Home</a>
+    <a href="./AboutUs.html">About</a>
+    <a href="./ContactUs.html">Contact</a>
+    <a href="./product.html">Products</a>
+    <a href="./cart.html">Cart</a>
+    <!--Login Button-->
+    <button class="login" onclick="login()">Login</button>
+  </div>
+  <!--Search Bar-->
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search" />
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</header>
+<!--Body Section-->
+
+<body>
+  <div class="body">
+    <!--Carousel Section-->
+    <div class="carousel">
+      <img src="./Images/cover.webp" alt="carousel" style="height: 450px; width: 100%" />
+    </div>
+    <!--Hot Deals Section-->
+    <p class="ht-d">Hot Deals</p>
+    <div class="hot-deals">
+      <div class="card">
+        <img src="./Images/pexels-parag-deshmukh-577769.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Bing Head Phone</p>
+          <h4><b>RS. 40,000</b></h4>
         </div>
       </div>
-      <!--Featured Deals Section-->
-      <p class="ft-d">Featured Deals</p>
-      <div class="featured-deals">
-        <div class="card">
-          <img
-            src="./Images/pexels-pixabay-39290.jpg"
-            alt="Avatar"
-            style="width: 100%; height: 80%"
-          />
-          <div class="container">
-            <p>Mother Board</p>
-            <h4><b>RS. 25,000</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-sound-on-3394650.jpg"
-            alt="Avatar"
-            style="width: 100%; height: 80%"
-          />
-          <div class="container">
-            <p>BOSS Headphone</p>
-            <h4><b>RS. 15,000</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-sound-on-3394665.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Bindo Headphone</p>
-            <h4><b>RS, 23,000</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-sound-on-3394666.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Bingo Headphone</p>
-            <h4><b>RS. 12,000</b></h4>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/pexels-yan-krukau-5793953.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <div class="container">
-            <p>Mac Book</p>
-            <h4><b>RS. 120,000</b></h4>
-          </div>
+      <div class="card">
+        <img src="./Images/pexels-nick-collins-1274613.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Chillies</p>
+          <h4><b>RS. 60</b></h4>
         </div>
       </div>
-      <!-- Categories Section -->
-      <p class="cat-d">All Categories</p>
-      <div class="categories">
-        <div class="card">
-          <img
-            src="./Images/pexels-yan-krukau-5793953.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <p>Laptops</p>
+      <div class="card">
+        <img src="./Images/pexels-lumn-191043.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Radish</p>
+          <h4><b>RS. 20</b></h4>
         </div>
-        <div class="card">
-          <img
-            src="./Images/smart watch.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <p>Smart Watches</p>
+      </div>
+      <div class="card">
+        <img src="./Images/pexels-kinkate-gruber-205926.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Headphone</p>
+          <h4><b>RS. 20,000</b></h4>
         </div>
-        <div class="card">
-          <img src="./Images/sneakers.jpg" alt="Avatar" style="width: 100%" />
-          <p>Sneakers</p>
+      </div>
+      <div class="card">
+        <img src="./Images/pexels-jonathan-pham-2955794.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Vegetables</p>
+          <h4><b>RS. 20</b></h4>
         </div>
-        <!-- <div class="card">
+      </div>
+    </div>
+    <!--Featured Deals Section-->
+    <p class="ft-d">Featured Deals</p>
+    <div class="featured-deals">
+      <div class="card">
+        <img src="./Images/pexels-pixabay-39290.jpg" alt="Avatar" style="width: 100%; height: 80%" />
+        <div class="container">
+          <p>Mother Board</p>
+          <h4><b>RS. 25,000</b></h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Images/pexels-sound-on-3394650.jpg" alt="Avatar" style="width: 100%; height: 80%" />
+        <div class="container">
+          <p>BOSS Headphone</p>
+          <h4><b>RS. 15,000</b></h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Images/pexels-sound-on-3394665.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Bindo Headphone</p>
+          <h4><b>RS, 23,000</b></h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Images/pexels-sound-on-3394666.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Bingo Headphone</p>
+          <h4><b>RS. 12,000</b></h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Images/pexels-yan-krukau-5793953.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <p>Mac Book</p>
+          <h4><b>RS. 120,000</b></h4>
+        </div>
+      </div>
+    </div>
+    <!-- Categories Section -->
+    <p class="cat-d">All Categories</p>
+    <div class="categories">
+      <div class="card">
+        <img src="./Images/pexels-yan-krukau-5793953.jpg" alt="Avatar" style="width: 100%" />
+        <p>Laptops</p>
+      </div>
+      <div class="card">
+        <img src="./Images/smart watch.jpg" alt="Avatar" style="width: 100%" />
+        <p>Smart Watches</p>
+      </div>
+      <div class="card">
+        <img src="./Images/sneakers.jpg" alt="Avatar" style="width: 100%" />
+        <p>Sneakers</p>
+      </div>
+      <!-- <div class="card">
           <img src="./Images/noodles.jpg" alt="Avatar" style="width: 140px" />
           <p>Noodles</p>
         </div> -->
-        <div class="card">
-          <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
-          <p>Jeans</p>
-        </div>
-        <div class="card">
-          <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
-          <p>Jeans</p>
-        </div>
+      <div class="card">
+        <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
+        <p>Jeans</p>
       </div>
-      <div class="categories">
-        <div class="card">
-          <img
-            src="./Images/pexels-yan-krukau-5793953.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <p>Laptops</p>
-        </div>
-        <div class="card">
-          <img
-            src="./Images/smart watch.jpg"
-            alt="Avatar"
-            style="width: 100%"
-          />
-          <p>Smart Watches</p>
-        </div>
-        <div class="card">
-          <img src="./Images/sneakers.jpg" alt="Avatar" style="width: 100%" />
-          <p>Sneakers</p>
-        </div>
-        <!-- <div class="card">
+      <div class="card">
+        <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
+        <p>Jeans</p>
+      </div>
+    </div>
+    <div class="categories">
+      <div class="card">
+        <img src="./Images/pexels-yan-krukau-5793953.jpg" alt="Avatar" style="width: 100%" />
+        <p>Laptops</p>
+      </div>
+      <div class="card">
+        <img src="./Images/smart watch.jpg" alt="Avatar" style="width: 100%" />
+        <p>Smart Watches</p>
+      </div>
+      <div class="card">
+        <img src="./Images/sneakers.jpg" alt="Avatar" style="width: 100%" />
+        <p>Sneakers</p>
+      </div>
+      <!-- <div class="card">
           <img src="./Images/noodles.jpg" alt="Avatar" style="width: 140px" />
           <p>Noodles</p>
         </div> -->
-        <div class="card">
-          <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
-          <p>Jeans</p>
-        </div>
-        <div class="card">
-          <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
-          <p>Jeans</p>
-        </div>
+      <div class="card">
+        <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
+        <p>Jeans</p>
+      </div>
+      <div class="card">
+        <img src="./Images/jeans.jpg" alt="Avatar" style="width: 100%" />
+        <p>Jeans</p>
       </div>
     </div>
-  </body>
-  <!--Footer Section-->
-  <footer>
-    <div class="footer">
-      <div class="f-s1">
-        <div class="shop">
-          <p class="title">Shop</p>
-          <a href="#drinks">Drinks</a>
-          <a href="#gifts">Gift Cards</a>
-          <a href="#locations"> Store Locators</a>
-        </div>
-        <div class="help">
-          <p class="title">Help</p>
-          <a href="./ContactUs.html"> Contact Us</a>
-          <a href="./AboutUs.html">FAQ</a>
-          <a href="./AboutUs.html">Accessibility</a>
-        </div>
-        <div class="about">
-          <p class="title">About</p>
-          <a href="#story">Our Story</a>
-          <a href="./product.html">Products</a>
-          <a href="#priorities">Our Priorites</a>
-          <a href="#wholesale">Wholesale</a>
-          <a href="#marketing">Marketing Team</a>
-        </div>
+  </div>
+</body>
+<!--Footer Section-->
+<footer>
+  <div class="footer">
+    <div class="f-s1">
+      <div class="shop">
+        <p class="title">Shop</p>
+        <a href="#drinks">Drinks</a>
+        <a href="#gifts">Gift Cards</a>
+        <a href="#locations"> Store Locators</a>
       </div>
+      <div class="help">
+        <p class="title">Help</p>
+        <a href="./ContactUs.html"> Contact Us</a>
+        <a href="./AboutUs.html">FAQ</a>
+        <a href="./AboutUs.html">Accessibility</a>
+      </div>
+      <div class="about">
+        <p class="title">About</p>
+        <a href="#story">Our Story</a>
+        <a href="./product.html">Products</a>
+        <a href="#priorities">Our Priorites</a>
+        <a href="#wholesale">Wholesale</a>
+        <a href="#marketing">Marketing Team</a>
+      </div>
+    </div>
 
-      <div class="f-s2">
-        <div class="subscribe">
-          <p>Subscribe to our Website</p>
-          <input type="text" placeholder="Enter your email" />
-          <button onclick="">Subscribe</button>
-        </div>
+    <div class="f-s2">
+      <div class="subscribe">
+        <p>Subscribe to our Website</p>
+        <input type="text" placeholder="Enter your email" />
+        <button onclick="">Subscribe</button>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
 </html>
 <script defer src="./index.js"></script>
