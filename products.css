@@ -1,30 +1,30 @@
-body{
+body {
   margin: 0%;
   font-family: sans-serif;
   background: white;
 }
-h3{
+h3 {
   text-align: center;
   font-size: 30px;
   margin: 0%;
   padding-top: 10px;
 }
-h2{
+h2 {
   text-align: center;
   font-size: 30px;
   margin: 0%;
   padding-top: 10px;
 }
-.gallery{
+.gallery {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
   align-items: center;
   margin: 50px o;
-  background: rgb(214, 211, 211);
+  background: white;
 }
-.content{
+.content {
   width: 20%;
   margin: 15px;
   box-sizing: border-box;
@@ -33,16 +33,14 @@ h2{
   border-radius: 20px;
   cursor: pointer;
   padding-top: 10px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  transition: .4s;
-  background: rgb(224, 205, 205);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: white;
 }
-.content :hover{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.22) 0 3px 6px rgba(0,0,0,0.23);
+.content :hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22) 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translate(opx, -8px);
-
 }
-img{
+body .gallery .content img {
   width: 200px;
   height: 200px;
   text-align: center;
@@ -50,150 +48,57 @@ img{
   display: block;
   border-radius: 20px;
 }
-.pro{
-  background:rgb(214, 211, 211);
+.pro {
+  background: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
-p{
+.content p {
   text-align: center;
   color: rgb(15, 15, 14);
   padding-top: 0 8px;
 }
-h6{
+h6 {
   font-size: 26px;
   text-align: center;
   color: #222;
   margin: 0;
-
 }
-ul{
-list-style: none;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0;
+.content ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
-li{
-  padding-top:5px ;
+li {
+  padding-top: 5px;
 }
-.fa{
+.content ul li .fa {
   font-size: 26px;
-  transition: 4s;
   margin: 3px;
 }
-.checked{
-  color: chocolate;
+.checked {
+  color: #fcae39;
 }
-.fa:hover{
+.fa:hover {
   transform: scale(1.3);
-  transition: 6s;
+  transition: 1s ease-in-out;
 }
-button{
-  background: white;
-  text-align: center;
-  font-size: 24px;
-  color: white;
-  /* width: 100px; */
-  /* padding: 15px; */
+.content button {
   border: 0;
-  /* outline: none; */
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-size: 24px;
   cursor: pointer;
-
-  width: 100%;
   margin-top: 5px;
-  /* border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px; */
-}
-.buy-1{
-  background:rgb(253, 55, 5)
-}
-.buy-2{
-    background:rgb(253, 55, 5)
-
-}
-.buy-3{
-      background:rgb(253, 55, 5)
-
-}
-.buy-4{
-  background:rgb(253, 55, 5)
-
-}
-/* 
-.body .hot-deals {
-  width: 100%;
-  display: flex;
-  height: 200px;
-  margin-top: 8px;
   text-align: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #c0b3c47e;
-}
-.body .hot-deals div {
-  height: auto;
-  width: 200px;
-  margin: 10px;
-  border-radius: 25px;
-  background-color: rgb(233, 243, 242);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
- .hot-deals .price { 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-   /* margin-top: 50%; */
-/* }
-
-.body .featured-deals {
-  width: 100%;
-  display: flex;
-  height: 200px;
-  margin-top: 8px;
-  text-align: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #c0b3c47e;
-}
-.body .featured-deals div {
-  height: auto;
-  width: 200px;
-  margin: 10px;
-  border-radius: 10px;
-  background-color: rgb(75, 160, 149);
-  box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fcae39;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.ht-d, .ft-d,.cd{
-  text-align: center;
+.footer{
+  margin-top: 30px;
 }
-   .categories{
-    width: 100%;
-    display: flex;
-    height: 200px;
-    margin-top: 8px;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #c0b3c47e;
-
-  }
-  .body.categories {
-    height: auto;
-    width: 200px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(3, 31, 27);
-    box-shadow: 0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  } 
-   .in_div{
-     margin-top: 5px;
-    padding-top: 5px;;
-    /* background:rgb(75, 160, 149); */
-    /* height: 190px;
-    width: 190px;
-    /* border: 2px solid red; */
-    /* border-radius: 13px;
-    box-shadow:0 4px 8px 0 rgba(18, 209, 136, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
-  }    */
-   */ */

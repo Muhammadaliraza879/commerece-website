@@ -118,7 +118,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  background-color: #ffd79a;
+  /* background-color: #ffd79a; */
   flex-direction: column;
 }
 /** Carousel Section**/
@@ -139,8 +139,8 @@ body {
 /** Featured Deals title**/
 .ft-d {
   font-size: 25px;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
@@ -218,14 +218,10 @@ body {
   cursor: pointer;
 }
 
-.body .categories .card p{
+.body .categories .card p {
   font-weight: 600;
   font-family: arial;
   text-align: center;
-}
-
-.bdy {
-  background-color: #fba830;
 }
 
 .contact_container {
