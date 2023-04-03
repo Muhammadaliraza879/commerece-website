@@ -16,6 +16,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3pc;
+    height: 550px;
+    padding-bottom: 3pc;
 
   }
 
@@ -23,11 +26,16 @@
     width: 100px;
     display: inline-block;
     margin: 4px;
-    
+
   }
 
   #table {
     border-radius: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgb(230, 94, 45);
     color: white;
     width: 400px;
@@ -38,13 +46,17 @@
 
   h2 {
     text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
   }
 
   #submit {
     width: 280px;
-    margin: 6px;
+    margin: 10px 0px 6px 0px;
+    padding: 5px;
   }
-  .footer{
+
+  #footer {
     padding: auto;
   }
 </style>
@@ -75,19 +87,19 @@
 
 <body>
   <div id="parent">
-  <div id="table">
-    <h2>login</h2>
-    <form>
-      <label>Name:</label>
-      <input type="text" name="name"><br>
-      <label>Father Name:</label>
-      <input type="text" name=" father name"><br>
-      <label>Phone:</label>
-      <input type="number" name="phone">
-      <br>
-      <input type="submit" name="submit" id="submit">
-    </form>
-  </div>
+    <div id="table">
+      <h2>login</h2>
+      <form>
+        <label>Name:</label>
+        <input type="text" name="name"><br>
+        <label>Father Name:</label>
+        <input type="text" name=" father name"><br>
+        <label>Phone:</label>
+        <input type="number" name="phone">
+        <br>
+        <input type="submit" name="submit" id="submit">
+      </form>
+    </div>
 
   </div>
 </body>
