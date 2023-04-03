@@ -1,3 +1,3 @@
 function login(params) {
-  console.log(document.("./login.html"));
+  console.log((location.href = "./login.html"));
 }
