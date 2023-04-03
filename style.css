@@ -45,7 +45,7 @@ body {
   color: black;
 }
 /** Header Anchor tag on active **/
-.head a.active {
+.head a:active {
   border-radius: 8px;
   background-color: #fba830;
   color: orange;
