@@ -37,10 +37,48 @@
   font-family: arial;
 }
 
+.main_container .sec1 .para2 {
+  display: none;
+}
+
 .main_container .sec2 {
   text-align: center;
 }
 
 .main_container .sec2 img {
   width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .main_container .sec1 .para1 {
+    display: none;
+  }
+
+  .main_container .sec1 .para2 {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: arial;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .main_container .sec1 .para2 {
+    font-size: 14px;
+  }
+
+  .main_container .sec1 .para2 .active{
+    display: none;
+  }
+
+  .main_container .heading1{
+    font-size: 20px;
+    height: 200px;
+  }
+
+  .main_container .sec1 .heading2{
+    font-size: 25px;
+  }
 }
