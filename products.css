@@ -1,7 +1,7 @@
 body {
   margin: 0%;
   font-family: sans-serif;
-  background: white;
+  background: rgb(196, 186, 186);
 }
 h3 {
   text-align: center;
@@ -111,3 +111,41 @@ li {
 .footer{
   margin-top: 20px;
 }
+
+@media(max-width:414px){
+  h1{font-size: 30px;
+  }
+  h2{
+    font-size: 30px;
+    background: #fcae39;
+  }
+  .gallery .content { 
+  background: rgb(228, 213, 213);
+  width: 500px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-top: 1pc; 
+} 
+}
+@media(max-width:820px){
+  .gallery .content{
+  background: rgb(228, 213, 213);
+  width: 300px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-top: 1pc;
+  }
+}
+@media(max-width:912px){
+ .gallery .content{
+  background: rgb(228, 213, 213);
+  width: 200px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-top: 1pc;
+  }
+}
+
