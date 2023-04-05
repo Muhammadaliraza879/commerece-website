@@ -81,4 +81,20 @@
   .main_container .sec1 .heading2{
     font-size: 25px;
   }
+
+  .footer{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .footer .f-s1{
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .footer .f-s2{
+    width: 100%;
+    height: 110px;
+    padding-top: 30px;
+  }
 }
