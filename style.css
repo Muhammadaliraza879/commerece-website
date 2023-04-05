@@ -35,7 +35,7 @@ body {
 
 .dropdown .dropbtn {
   margin-top: 5px;
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -44,11 +44,12 @@ body {
   font-family: inherit;
 }
 
-.dropdown .dropbtn:hover{
+.dropdown .dropbtn:hover {
   color: black;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #fba830;
 }
 
@@ -57,7 +58,7 @@ body {
   position: absolute;
   background-color: #fba830;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -79,7 +80,6 @@ body {
 }
 
 /* Dropdown Css end */
-
 
 /** Header Anchor tag **/
 .head a {
@@ -139,7 +139,7 @@ body {
   border: none;
   margin-top: 12px;
   margin-left: 15px;
-  font-size: 17px;
+  /* font-size: 17px; */
   cursor: pointer; /* Set cursor to pointer */
   padding: 10px 14px;
   font-size: medium;
