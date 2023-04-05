@@ -35,7 +35,7 @@ body {
 
 .dropdown .dropbtn {
   margin-top: 5px;
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -44,11 +44,12 @@ body {
   font-family: inherit;
 }
 
-.dropdown .dropbtn:hover{
+.dropdown .dropbtn:hover {
   color: black;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #fba830;
 }
 
@@ -57,7 +58,7 @@ body {
   position: absolute;
   background-color: #fba830;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -79,7 +80,6 @@ body {
 }
 
 /* Dropdown Css end */
-
 
 /** Header Anchor tag **/
 .head a {
@@ -139,7 +139,7 @@ body {
   border: none;
   margin-top: 12px;
   margin-left: 15px;
-  font-size: 17px;
+  /* font-size: 17px; */
   cursor: pointer; /* Set cursor to pointer */
   padding: 10px 14px;
   font-size: medium;
@@ -435,16 +435,214 @@ footer .f-s2 {
   padding: 10px 20px;
   border-radius: 20px;
 }
-/* Footer Section 2 footer .f-s2 .f-s2 {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+@media (max-width: 1360px) {
+  .head {
+    width: 100%;
 
-footer .f-s1 .f-s1 {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
+    /* justify-content: space-between; */
+  }
+
+  .head .company-logo {
+    max-width: 20%;
+    float: left;
+  }
+  .head .links {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 50%;
+    margin-right: 30px;
+  }
+  .head .links a {
+    text-decoration: none;
+    color: white;
+    float: none;
+    font-size: 14px;
+  }
+  /** Header anchor tag on hover **/
+  .head a:hover {
+    background-color: #fba830;
+    border-radius: 8px;
+    color: black;
+  }
+  /** Header Anchor tag on active **/
+  .head a:active {
+    border-radius: 8px;
+    background-color: #fba830;
+    color: orange;
+  }
+  .head .search-container form {
+    display: flex;
+    white-space: nowrap;
+  }
+  .contact_container fieldset {
+    width: 50%;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    margin-top: 9px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 12px;
+    background-color: inherit;
+    font-family: inherit;
+  }
+
+  .dropdown .dropbtn:hover {
+    color: black;
+  }
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: #fba830;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fba830;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .head input[type="text"] {
+    padding: 8px;
+    margin-top: 8px;
+    width: 65%;
+    font-size: 13px;
+    background-color: #fbecd5;
+    border: none;
+    float: right;
+  }
+  /** Search Button**/
+  .head .search-container button {
+    float: none;
+    padding: 8px 14px;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 8px;
+    background: #fba830;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  /** Login Button **/
+  .head .links .login {
+    border: none;
+    margin-top: 8px;
+    margin-left: 10px;
+    /* font-size: 17px; */
+    cursor: pointer; /* Set cursor to pointer */
+    padding: 10px 12px;
+    font-size: small;
+    background: #fba830;
+    text-align: center;
+    border-radius: 6px; /* Set border radius */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Set display to inline-block */
+  }
+  .footer .f-s1 .shop .title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+  .footer .f-s1 .help .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+  .footer .f-s1 .about .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 4px;
+  }
+}
+@media (max-width: 1240px) {
+  
+}
+@media screen and (max-width: 768px) {
+  .contact_container fieldset {
+    width: 90%;
+  }
+  .footer .f-s1 .shop .title {
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 5px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+  .footer .f-s1 .help .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+  .footer .f-s1 .about .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 4px;
+  }
+  .footer .f-s1 a {
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  .f-s2 .subscribe p {
+    font-size: medium;
+    color: #fff;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .f-s2 .subscribe input[type="text"] {
+    background-color: #ffd79a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ffa41b;
+  }
+  .f-s2 .subscribe button {
+    background-color: #ffa41b;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+}
