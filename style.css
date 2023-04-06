@@ -435,7 +435,6 @@ footer .f-s2 {
   padding: 10px 20px;
   border-radius: 20px;
 }
-
 @media only screen and (max-width:425px){
   .bdy .contact_container .form .input .active{
     display: none;
@@ -475,3 +474,4 @@ footer .f-s1 .f-s1 {
   padding-top: 10px;
   padding-bottom: 10px;
 } */
+
