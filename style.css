@@ -279,7 +279,7 @@ body {
   font-size: 60px;
   line-height: 50px;
   text-align: center;
-  font-family: Times New Roman;
+  font-family: Times;   
   align-items: center;
   background: #fba830;
   justify-content: center;
@@ -287,13 +287,13 @@ body {
 
 .contact_container fieldset {
   width: 38%;
+  margin: 5% 0;
   padding: 20px;
   display: flex;
-  margin: 5% 0;
-  background: #ffd79a;
   align-items: center;
-  border: 1px solid white;
+  background: #ffd79a;
   flex-direction: column;
+  border: 1px solid white;
   box-shadow: 1px 1px 10px 10px #cccbcb53;
 }
 
@@ -445,6 +445,19 @@ footer .f-s2 {
     padding-right: 1px;
   }
 
+  .contact_container fieldset{
+    padding: 5px;
+  }
+
+  .contact_container fieldset .form textarea{
+    padding: 9px;
+  }
+
+  .contact_container .head1{
+    font-size: 35px;
+    height: 180px;
+  }
+
   .footer{
     display: flex;
     flex-direction: column-reverse;
@@ -462,16 +475,26 @@ footer .f-s2 {
   }
 }
 
-/* Footer Section 2 footer .f-s2 .f-s2 {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+@media only screen and (max-width:768px){
+  .bdy .contact_container .form input{
+    padding-right: 1px;
+  }
+
+  .contact_container fieldset{
+    width: 10%;
+  }
+
+  .contact_container fieldset .form textarea{
+    padding: 9px;
+  }
 }
 
-footer .f-s1 .f-s1 {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
+@media only screen and (max-width:1024px){
+  .bdy .contact_container .form input{
+    padding-right: 1px;
+  }
+
+  .contact_container fieldset .form textarea{
+    padding: 9px;
+  }
+}
