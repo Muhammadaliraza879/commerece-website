@@ -615,6 +615,27 @@ footer .f-s2 {
 }
 
 @media only screen and (max-width:425px) {
+  .head .company-logo{
+    width: 20%;
+  }
+  .head .company-logo img{
+    width: 250%;
+  }
+
+  .head .search-container{
+  width: 80%;
+  }
+
+  .head .toggle_menu{
+    width: 10%;
+    padding-right: 9px;
+    padding-top: 10px;
+  }
+
+  .head input[type="text"]{
+    width: 70%;
+  }
+
   .body .hot-deals{
     display: flex;
   }
