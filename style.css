@@ -275,7 +275,7 @@ body {
   display: flex;
   margin: 0px 20px;
   padding: 10px 0px;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
 }
 
 .body .categories .card {
@@ -287,6 +287,10 @@ body {
   font-weight: 600;
   font-family: arial;
   text-align: center;
+}
+.body .categories .card img{
+  height: 200px;
+  width: 140%;
 }
 
 .contact_container {
