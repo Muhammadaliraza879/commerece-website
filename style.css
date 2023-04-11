@@ -9,6 +9,7 @@
 body {
   background-color: #f6f5f5;
 }
+
 /** Header Styling**/
 
 .head {
@@ -17,15 +18,18 @@ body {
   justify-content: center;
   background-color: #fbc678;
 }
+
 /** Company Logo Design **/
 .head .company-logo {
   width: 33%;
   padding: 10px;
 }
+
 /** Header link Container **/
 .head .links {
   width: 40%;
 }
+
 /* Dropdown Css start */
 
 .dropdown {
@@ -93,26 +97,31 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
 /** Header anchor tag on hover **/
 .head a:hover {
   background-color: #fba830;
   border-radius: 8px;
   color: black;
 }
+
 /** Header Anchor tag on active **/
 .head a:active {
   border-radius: 8px;
   background-color: #fba830;
   color: orange;
 }
+
 /** Header Search Bar**/
 .head .search-container {
   width: 33.33%;
 }
+
 /** Header Search Container  **/
 .head .search-container form {
   display: block;
 }
+
 /** Header Search input field**/
 .head input[type="text"] {
   padding: 6px;
@@ -122,6 +131,7 @@ body {
   background-color: #fbecd5;
   border: none;
 }
+
 /** Search Button**/
 .head .search-container button {
   float: none;
@@ -134,26 +144,33 @@ body {
   border: none;
   cursor: pointer;
 }
+
 /** Login Button **/
 .head .links .login {
   border: none;
   margin-top: 12px;
   margin-left: 15px;
   /* font-size: 17px; */
-  cursor: pointer; /* Set cursor to pointer */
+  cursor: pointer;
+  /* Set cursor to pointer */
   padding: 10px 14px;
   font-size: medium;
   background: #fba830;
   text-align: center;
-  border-radius: 8px; /* Set border radius */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Set display to inline-block */
+  border-radius: 8px;
+  /* Set border radius */
+  text-decoration: none;
+  /* Remove underline */
+  display: inline-block;
+  /* Set display to inline-block */
 }
 
 /** Login Button disable animation **/
 .head .links .login.clicked {
-  animation: none; /* Disable animation when button is clicked */
+  animation: none;
+  /* Disable animation when button is clicked */
 }
+
 /** Body section**/
 .body {
   width: 100%;
@@ -162,6 +179,7 @@ body {
   /* background-color: #ffd79a; */
   flex-direction: column;
 }
+
 /** Carousel Section**/
 .body .carousel {
   height: 400px;
@@ -169,6 +187,7 @@ body {
   border: 1px #aaa;
   background-color: white;
 }
+
 /** Hot Deals title**/
 .ht-d {
   font-size: 25px;
@@ -177,6 +196,7 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 /** Featured Deals title**/
 .ft-d {
   font-size: 25px;
@@ -185,6 +205,7 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 /** Hot Deals body**/
 .body .hot-deals {
   display: flex;
@@ -194,6 +215,7 @@ body {
   margin: 8px 32px 0px 32px;
   justify-content: space-evenly;
 }
+
 /** Featured Deals Section**/
 .body .hot-deals .card {
   width: 40%;
@@ -211,6 +233,7 @@ body {
 .body .hot-deals .container {
   padding: 2px 16px;
 }
+
 /** Featured Deals body **/
 .body .featured-deals {
   display: flex;
@@ -219,6 +242,7 @@ body {
   justify-content: space-evenly;
   /* background-color: transparent; */
 }
+
 /** Featured Deals Section**/
 .body .featured-deals .card {
   width: 50%;
@@ -279,7 +303,7 @@ body {
   font-size: 60px;
   line-height: 50px;
   text-align: center;
-  font-family: Times;   
+  font-family: Times;
   align-items: center;
   background: #fba830;
   justify-content: center;
@@ -340,6 +364,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 /** Footer Body**/
 .footer {
   display: flex;
@@ -348,6 +373,7 @@ footer {
 
   /* box-shadow: 1px 1px 10px 10px #cccbcb53; */
 }
+
 /** Footer Section 1**/
 footer .f-s1 {
   display: flex;
@@ -359,6 +385,7 @@ footer .f-s1 {
   /* height: 200px; */
   padding-left: 10px;
 }
+
 /** Footer Section 2**/
 footer .f-s2 {
   display: flex;
@@ -371,20 +398,24 @@ footer .f-s2 {
   padding-left: 10px;
   /* border-left: 1px solid white; */
 }
+
 .footer .f-s1 .shop {
   display: flex;
   flex-direction: column;
 }
+
 .footer .f-s1 .about {
   display: flex;
   flex-direction: column;
   padding-top: 25px;
   padding-bottom: 0px;
 }
+
 .footer .f-s1 .help {
   display: flex;
   flex-direction: column;
 }
+
 .footer .f-s1 .shop .title {
   font-size: 15px;
   font-weight: bold;
@@ -393,6 +424,7 @@ footer .f-s2 {
   padding-top: 10px;
   padding-bottom: 4px;
 }
+
 .footer .f-s1 .help .title {
   font-size: 15px;
   font-weight: bold;
@@ -401,6 +433,7 @@ footer .f-s2 {
   padding-top: 10px;
   padding-bottom: 4px;
 }
+
 .footer .f-s1 .about .title {
   font-size: 15px;
   font-weight: bold;
@@ -409,6 +442,7 @@ footer .f-s2 {
   margin-left: 10px;
   padding-bottom: 4px;
 }
+
 .footer .f-s1 a {
   justify-content: space-around;
   align-items: center;
@@ -417,6 +451,7 @@ footer .f-s2 {
   text-decoration: none;
   padding-left: 10px;
 }
+
 .f-s2 .subscribe p {
   font-size: medium;
   color: #fff;
@@ -424,12 +459,14 @@ footer .f-s2 {
   margin-left: 2px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .f-s2 .subscribe input[type="text"] {
   background-color: #ffd79a;
   padding: 10px 20px;
   border-radius: 20px;
   border: 1px solid #ffa41b;
 }
+
 .f-s2 .subscribe button {
   background-color: #ffa41b;
   padding: 10px 20px;
@@ -440,37 +477,41 @@ footer .f-s2 {
   display: none;
 }
 
-@media only screen and (max-width:1024px){
-  .bdy .contact_container .form input{
+.head .toggle_menu{
+  display: none;
+}
+
+@media only screen and (max-width:1024px) {
+  .bdy .contact_container .form input {
     padding-right: 1px;
   }
 
-  .contact_container fieldset .form textarea{
+  .contact_container fieldset .form textarea {
     padding: 9px;
   }
 
-  .head .links{
+  .head .links {
     display: none;
   }
 
-  .head .company-logo{
+  .head .company-logo {
     width: 20%;
   }
 
-  .head .search-container{
+  .head .search-container {
     width: 60%;
     margin-left: 6rem;
     /* text-align: -webkit-right; */
   }
 
-  .head .toggle_menu{
+  .head .toggle_menu {
     width: 20%;
     display: flex;
     margin-left: 50px;
     justify-content: center;
   }
-  
-  .head .toggle_menu .t_menu{
+
+  .head .toggle_menu .t_menu {
     border: 0;
     padding: 3px;
     color: black;
@@ -478,7 +519,7 @@ footer .f-s2 {
     background-color: transparent;
   }
 
-  .popup {
+  .head .popup {
     top: 60px;
     left: 800px;
     width: 400px;
@@ -488,79 +529,79 @@ footer .f-s2 {
     background-color: #fbac35;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-}
+  }
 
-.active {
+  .active {
     display: block !important;
-}
+  }
 
-.head .list {
-  display: flex;
-  font-size: 20px;
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 10px;
-  font-family: arial;
-}
+  .head .list {
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-family: arial;
+  }
 
-.head .popup .list a {
-  color: black;
-  text-decoration: none;
-}
-
-.head .popup .list a:hover {
+  .head .popup .list a {
     color: black;
+    text-decoration: none;
+  }
+
+  .head .popup .list a:hover {
+    color: white;
     background-color: #fe9400;
-}
+  }
 }
 
-@media only screen and (max-width:768px){
-  .bdy .contact_container .form input{
+@media only screen and (max-width:768px) {
+  .bdy .contact_container .form input {
     padding-right: 1px;
   }
 
-  .contact_container fieldset{
+  .contact_container fieldset {
     width: 10%;
   }
-  
-  .contact_container fieldset .form textarea{
+
+  .contact_container fieldset .form textarea {
     padding: 9px;
   }
 }
 
-@media only screen and (max-width:425px){
-  .bdy .contact_container .form .input .active{
+@media only screen and (max-width:425px) {
+  .bdy .contact_container .form .input .active {
     display: none;
   }
 
-  .bdy .contact_container .form input{
+  .bdy .contact_container .form input {
     padding-right: 1px;
   }
 
-  .contact_container fieldset{
+  .contact_container fieldset {
     padding: 5px;
   }
 
-  .contact_container fieldset .form textarea{
+  .contact_container fieldset .form textarea {
     padding: 9px;
   }
 
-  .contact_container .head1{
+  .contact_container .head1 {
     font-size: 35px;
     height: 180px;
   }
 
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column-reverse;
   }
 
-  .footer .f-s1{
+  .footer .f-s1 {
     width: 100%;
     padding-bottom: 15px;
   }
 
-  .footer .f-s2{
+  .footer .f-s2 {
     width: 100%;
     height: 110px;
     padding-top: 30px;
