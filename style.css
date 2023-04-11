@@ -485,6 +485,10 @@ footer .f-s2 {
   display: none;
 }
 
+.body .featured-deals .card .imgs{
+  display: none;
+}
+
 @media only screen and (max-width:1024px) {
   .bdy .contact_container .form input {
     padding-right: 1px;
@@ -526,7 +530,7 @@ footer .f-s2 {
   .head .popup {
     top: 60px;
     left: 800px;
-    width: 400px;
+    width: 224px;
     display: none;
     padding: 10px;
     position: absolute;
@@ -560,6 +564,22 @@ footer .f-s2 {
 }
 
 @media only screen and (max-width:768px) {
+  .head .toggle_menu{
+    width: 10%;
+  }
+
+  .head .popup {
+    top: 70px;
+    left: 588px;
+    width: 180px;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    background-color: #fbac35;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
   .bdy .contact_container .form input {
     padding-right: 1px;
   }
@@ -570,6 +590,23 @@ footer .f-s2 {
 
   .contact_container fieldset .form textarea {
     padding: 9px;
+  }
+
+  .body .hot-deals{
+    height: 150px;
+  }
+
+  .body .featured-deals{
+    height: 150px;
+  }
+
+  .body .featured-deals .card .d-img{
+    display: none;
+  }
+
+  .body .featured-deals .card .imgs{
+    height: 70%;
+    display: block;
   }
 }
 
@@ -611,17 +648,3 @@ footer .f-s2 {
     padding-top: 30px;
   }
 }
-
-/* Footer Section 2 footer .f-s2 .f-s2 {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-footer .f-s1 .f-s1 {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
