@@ -636,6 +636,12 @@ footer .f-s2 {
     width: 70%;
   }
 
+  .head .popup {
+    top: 70px;
+    left: 245px;
+    width: 180px;
+  }
+
   .body .hot-deals{
     display: flex;
   }
