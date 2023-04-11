@@ -560,6 +560,10 @@ footer .f-s2 {
 }
 
 @media only screen and (max-width:768px) {
+  .body .car-img{
+    height: 50%;
+  }
+
   .head .toggle_menu{
     width: 10%;
   }
@@ -607,6 +611,10 @@ footer .f-s2 {
 }
 
 @media only screen and (max-width:425px) {
+  .body .hot-deals{
+    display: flex;
+  }
+
   .bdy .contact_container .form .input .active {
     display: none;
   }
